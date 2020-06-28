@@ -27,7 +27,7 @@ def homePage():
 
 def ConfigureDataBase():
 
-    client = MongoClient("mongodb+srv://covid:Password#10@cluster0-txvtu.mongodb.net/test?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://username:Password@cluster0-txvtu.mongodb.net/test?retryWrites=true&w=majority")
     return client.get_database('ML')
 
 @app.route('/single_order',methods=['GET','POST'])  # route to display the home page
