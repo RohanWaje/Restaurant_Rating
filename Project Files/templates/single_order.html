@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Welcome to Single Prediction!!!</h1>
+
+    <div class="form">
+        <form action="/single_predict" method="POST">
+            <input type="number" name="Ranking" id="Ranking" placeholder="Ranking" step="any">
+            <input type="number" name="Number of Reviews" id="Number of Reviews" placeholder="Number of Reviews" step="any">
+            <input type="number" name="Paris_City" id="Paris_City" placeholder="Paris_City" step="any">
+            <input type="string" name="Reviews" id="Reviews" placeholder="Reviews" step="any">
+            <input type="number" name="London_City" id="London_City" placeholder="London_City" step="any">
+            <input type="number" name="Milan_City" id="Milan_City" placeholder="Milan_City" step="any">
+            <input type="number" name="Rome_City" id="Rome_City" placeholder="Rome_City" step="any">
+            <input type="number" name="Berlin_City" id="Berlin_City" placeholder="Berlin_City" step="any">
+            <input type="number" name="Madrid_City" id="Madrid_City" placeholder="Madrid_City" step="any">
+            <input type="number" name="Barcelona_City" id="Barcelona_City" placeholder="Barcelona_City" step="any">
+            <input type="number" name="Lisbon_City" id="Lisbon_City" placeholder="Lisbon_City" step="any">
+            <input type="number" name="Prague_City" id="Prague_City" placeholder="Prague_City" step="any">
+            <input type="number" name="Vienna_City" id="Vienna_City" placeholder="Vienna_City" step="any">
+            
+            <br>
+            <input type="submit" value="Predict">
+			</br>
+        </form>
+    </div>
+	
+	
+    
+</div>
+{% endblock %}

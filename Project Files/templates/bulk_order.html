@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Welcome to Bulk Prediction!!!</h1>
+
+	<h3></p>Please select excel file for bulk prediction</p></h3>
+    <form class="" action="/bulk_predict" method="POST">
+	<input type="file" name="bulk" value="">
+	<input type="submit" value="Predict">
+</div>
+{% endblock %}

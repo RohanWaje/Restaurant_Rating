@@ -1,0 +1,43 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 136-874-321
+INFO:werkzeug: * Running on http://127.0.0.1:8001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:52:00] "[37mGET /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:52:03] "[37mPOST /bulk_order HTTP/1.1[0m" 200 -
+DEBUG:root:Number of features of the model must match the input. Model n_features is 23 and input n_features is 9 
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:52:14] "[37mPOST /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:54:58] "[37mGET /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:55:00] "[37mPOST /bulk_order HTTP/1.1[0m" 200 -
+DEBUG:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:55:08] "[37mPOST /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:56:16] "[37mGET /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:56:18] "[37mPOST /bulk_order HTTP/1.1[0m" 200 -
+DEBUG:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:56:26] "[37mPOST /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 136-874-321
+INFO:werkzeug: * Running on http://127.0.0.1:8001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:57:20] "[37mGET /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:57:22] "[37mPOST /bulk_order HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:57:33] "[37mPOST /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:57:33] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:58:54] "[37mGET /bulk_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 18:58:56] "[37mPOST /single_order HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:02:01] "[37mGET /single_order HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:06:34] "[37mGET /single_order HTTP/1.1[0m" 200 -
+DEBUG:root:could not convert string to float: 
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:06:42] "[37mPOST /single_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:07:27] "[37mGET /single_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:07:30] "[37mPOST /single_order HTTP/1.1[0m" 200 -
+DEBUG:root:Number of features of the model must match the input. Model n_features is 23 and input n_features is 22 
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:08:37] "[37mPOST /single_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:08:56] "[37mGET /single_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:08:58] "[37mPOST /single_order HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'R:\\DataScience\\Python\\I-Neuron\\Machine Learning\\Tutorials\\Hackathon\\Bankruptcy\\model\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 136-874-321
+INFO:werkzeug: * Running on http://127.0.0.1:8001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:12:09] "[37mPOST /single_predict HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/May/2020 19:12:09] "[33mGET /style.css HTTP/1.1[0m" 404 -

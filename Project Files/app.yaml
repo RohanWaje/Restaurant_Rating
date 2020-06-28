@@ -1,0 +1,4 @@
+runtime: python37
+instance_class: F4_HIGHMEM
+env_variables: 
+    NLTK_DATA: 'nltk_data'

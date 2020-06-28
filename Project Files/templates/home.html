@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Welcome to Restaurant Rating Prediction!!!</h1>
+	
+	
+
+    		
+        <form action="{{url_for ('single_order') }}" method="POST">
+		<h3> <p> Please select below for Single Prediction </p></h3>
+			<input type="submit" value="Single Prediction">
+		</form>
+		
+		<form action="{{url_for ('bulk_order') }}" method="POST">
+		<h3> <p> Please select below for Bulk Prediction </p></h3>
+			<input type="submit" value="Bulk Prediction">
+		</form>
+    
+</div>
+{% endblock %}
